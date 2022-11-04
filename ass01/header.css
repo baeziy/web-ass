@@ -13,18 +13,18 @@ header .icons {
   width: 2%;
   text-align: center;
   position: relative;
-  left: 10%;
+  left: 5%;
   transition: all 0.25s;
 }
 header .icons:hover {
   transform: translateY(-0.25em);
-  transform: scale(1.5);
+  transform: scale(1.7);
 }
 
 header .navv {
   text-align: center;
   position: relative;
-  left: 60%;
+  left: 55%;
   display: inline-block;
 }
 
@@ -48,4 +48,11 @@ header .buttons {
 header {
   border-bottom: 1px solid rgba(204, 204, 204, 0.623);
   padding-bottom: 1em;
+}
+#myaccount {
+  transition: all 0.25s;
+}
+#myaccount:hover {
+  transform: scale(1.1);
+  background-color: rgb(184, 182, 49);
 }
