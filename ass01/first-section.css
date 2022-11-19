@@ -1,0 +1,84 @@
+main .first-section #img-div,
+.heading {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+main .first-section #img-div img {
+  width: 80%;
+  height: 55em;
+  opacity: 0.4;
+}
+
+main .first-section .heading ul {
+  position: absolute;
+  top: -24em;
+  text-align: center;
+  font-size: x-large;
+}
+.first-section .heading ul li:nth-child(1),
+li:nth-child(3) {
+  text-transform: uppercase;
+  font-weight: light;
+  line-height: 1.5;
+  font-size: 15px;
+}
+.first-section .heading ul li:nth-child(2) {
+  line-height: 3.5;
+  text-transform: capitalize;
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+.first-section .heading #donate,
+#activity {
+  border: none;
+  padding: 1em 3em;
+  margin-top: 2em;
+  margin-right: 2em;
+  font-weight: bold;
+}
+.first-section .heading #activity {
+  background: none;
+  border: 2px solid black;
+}
+.first-section .details-in {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -80px;
+}
+.first-section .details {
+  width: 80em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.first-section .details .cols {
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  width: 20em;
+  padding: 10px;
+  font-size: large;
+  align-items: center;
+  color: white;
+  background-color: #3ea89d;
+}
+.first-section .details .cols .first {
+  border-right: 3px solid white;
+  padding: 10px;
+  margin-right: 20px;
+  font-weight: lighter;
+}
+.first-section .details .cols .first ul li:nth-of-type(1) {
+  line-height: 4em;
+  font-weight: bold;
+}
+.first-section .details .cols .second {
+  font-weight: bold;
+}
+
+.first-section .details #black {
+  background-color: black;
+}
