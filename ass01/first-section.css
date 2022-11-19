@@ -64,6 +64,7 @@ li:nth-child(3) {
   align-items: center;
   color: white;
   background-color: #3ea89d;
+  transition: all 0.3s;
 }
 .first-section .details .cols .first {
   border-right: 3px solid white;
@@ -81,4 +82,9 @@ li:nth-child(3) {
 
 .first-section .details #black {
   background-color: black;
+}
+
+.first-section .details .cols:hover {
+  border: 2px solid white;
+  transform: scale(1.1);
 }
