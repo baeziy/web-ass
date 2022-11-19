@@ -85,6 +85,7 @@ li:nth-child(3) {
 }
 
 .first-section .details .cols:hover {
-  border: 2px solid white;
+  /* border: 2px solid white; */
   transform: scale(1.1);
+  border-radius: 20%;
 }
