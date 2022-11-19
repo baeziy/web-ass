@@ -1,0 +1,32 @@
+.navbar #logo,
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2em;
+}
+.navbar ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 45em;
+}
+.navbar ul li a {
+  text-transform: uppercase;
+  color: rgb(62, 59, 59);
+  text-decoration: none;
+  font-weight: bold;
+  /* transition: all 1s; */
+}
+.navbar ul li a:hover {
+  color: #2475a1;
+}
+
+.navbar #logo img {
+  width: 12em;
+}
