@@ -2,6 +2,8 @@
   background-color: rgb(249, 245, 253);
   padding: 40px;
   margin: 0 40px;
+  position: relative;
+  top: -40px;
 }
 .cards {
   display: flex;
