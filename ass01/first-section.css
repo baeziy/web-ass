@@ -2,7 +2,7 @@ main .first-section #img-div,
 .heading {
   position: relative;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 main .first-section #img-div img {
   width: 80%;

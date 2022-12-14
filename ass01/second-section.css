@@ -1,0 +1,44 @@
+.second-section {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2%;
+}
+
+.leftside {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+}
+.rightside {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -30px;
+}
+.icons {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  height: 20px;
+  margin-top: 30px;
+}
+.second-section > .leftside > .icons > .icon1,
+.icon2,
+.icon3 {
+  border: 1px solid rgb(189, 188, 188);
+  padding: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.para > h1 {
+  text-align: center;
+  font-size: 45px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.para > p {
+  color: rgb(152, 152, 152);
+}
