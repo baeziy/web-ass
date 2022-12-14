@@ -11,6 +11,8 @@ ul {
   padding-top: 2em;
   margin-bottom: 2em;
   /* position: sticky; */
+  /* top: 40px; */
+  /* background: white; */
 }
 .navbar ul {
   display: flex;
