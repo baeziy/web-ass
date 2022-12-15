@@ -34,9 +34,9 @@ header .navv {
 header .buttons {
   background: none;
   border: 1px solid rgba(204, 204, 204, 0.623);
-  padding: 1em;
-  padding-left: 3em;
-  padding-right: 3em;
+  padding: 0.7em;
+  padding-left: 2em;
+  padding-right: 2em;
   font-weight: bold;
 }
 #donate {
